@@ -52,7 +52,7 @@ import { cn } from "@/lib/utils";
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
   {
@@ -84,7 +84,7 @@ function AppSideBar() {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
-              <Link href="#">
+              <Link href="/">
                 <Image
                   src="/vercel.svg"
                   alt="Vercel Logo"

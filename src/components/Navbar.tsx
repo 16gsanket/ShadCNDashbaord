@@ -20,7 +20,7 @@ function Navbar() {
 
     const {theme , setTheme} = useTheme();
   return (
-    <nav className="p-4 items-center justify-between flex">
+    <nav className="p-4 items-center justify-between flex sticky top-0 bg-background z-10">
       <SidebarTrigger />
       <div className="items-center flex gap-4">
         {/* DASHBAORD LINK */}

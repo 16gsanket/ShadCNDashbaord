@@ -48,7 +48,7 @@ function AppScroll() {
 
           <div className="flex items-center gap-3 flex-col">
             {[...Array(10)].map((_, i) => (
-              <Card className="w-full p-2ll">
+              <Card className="w-full p-2">
                 <Label key={i} htmlFor={`terms${i}`}>
                   <Checkbox id={`terms${i}`} />
                   <span className="ml-2 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
